@@ -23,6 +23,6 @@
 - Anne Caroline
 - Jéssica Ricão
 - Taís Nazaré
-- 
+- Ester Calixto
 
 
