@@ -1,15 +1,26 @@
 
-<h1>Squad Sarah Gilbertc</h1>
+<h1 align="center">Squad Sarah Gilbert</h1>
 <hr>
 
-#CONSTRUDELAS 2022 (.NET)
 
-## Descrição
+<h2> Descrição </h2
 
-Este projeto se refere ao módulo de backend do Bootcamp ConstruDelas 2022. Foi realizado pelo grupo "Sarah Gilbert"
+## O projeto consiste em uma plataforma E-commerce de Tecnologia, usando CRUD (Create, Read, Update e Delete) em um banco de dados para Cadastro de Clientes e C# como linguagem de programação.
+## Ferramentas
+
+📌Visual studio
+📌SQL SERVER
+📌 MySQL
+
+
+
+
+<p> Este projeto se refere ao módulo de backend do Bootcamp #CONSTRUDELAS 2022 (.NET) e foi realizado pelo grupo "Sarah Gilbert" </p>
+
+📌 Integrantes
 - Anne Caroline
 - Jéssica Ricão
 - Taís Nazaré
+- Ester
 
 
-<h1> Ferramentas </h1>
