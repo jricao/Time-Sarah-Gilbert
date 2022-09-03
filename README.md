@@ -2,8 +2,8 @@
 <h1 align="center">Squad Sarah Gilbert</h1>
 
 
-<p align=“center”>🖥  Este projeto se refere ao módulo de back-end do Bootcamp #CONSTRUDELAS 2022 (.NET).
-  Sendo esse o projeto final que serve como parametro avaliativo para o processo seletivo da JuntosSomosMais e foi realizado pelo grupo "Sarah Gilbert" </p>
+<p align=“center”>🖥  Este projeto se refere ao módulo de back-end do Bootcamp #CONSTRUDELAS 2022 (.NET). <br></br>
+  🖥 Sendo esse o projeto final que serve como parametro avaliativo para o processo seletivo da JuntosSomosMais e foi realizado pelo grupo *Sarah Gilbert* !</p>
 <hr>
 
 
