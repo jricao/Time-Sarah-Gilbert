@@ -19,7 +19,7 @@
 
 
 
-## 📌 Integrantes
+## Integrantes
 - Anne Caroline
 - Jéssica Ricão
 - Taís Nazaré
