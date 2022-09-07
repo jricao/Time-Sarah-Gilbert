@@ -16,7 +16,7 @@
 
 📌Visual studio
 📌SQL SERVER EXPRESS 2019
-📌MySQL
+📌
 📌
 📌
 
