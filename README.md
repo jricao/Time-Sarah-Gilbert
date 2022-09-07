@@ -15,7 +15,7 @@
 ## Ferramentas
 
 📌Visual studio
-📌SQL SERVER
+📌SQL SERVER EXPRESS 2019
 📌MySQL
 📌
 📌
