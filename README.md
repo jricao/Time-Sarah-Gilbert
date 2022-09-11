@@ -9,14 +9,14 @@
 
 <h2> Descrição </h2
 
-## O projeto consiste em constrtuir uma plataforma E-commerce de Tecnologia, usando CRUD (Create, Read, Update e Delete) em um banco de dados para Cadastro de Clientes e C# como linguagem de programação.
+## O projeto consiste em constrtuir uma plataforma E-commerce de Tecnologia, usando CRUD (Create, Read, Update e Delete) em um banco de dados para Cadastro e Consulta de Clientes, usando C# como linguagem de programação e .Net como framework.
   
   
 ## Ferramentas
 
 📌Visual studio
 📌SQL SERVER EXPRESS 2019
-📌MYSQL
+📌SQL SERVE MANAGEMENT STUDIO
 📌
 📌
 
