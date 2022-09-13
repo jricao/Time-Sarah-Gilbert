@@ -1,3 +1,6 @@
+
+------------------DADOS FICTÍCIOS 
+
 SELECT * FROM dbclientes;
 SELECT * FROM  produtos;
 SELECT * FROM  dbpedidos;
