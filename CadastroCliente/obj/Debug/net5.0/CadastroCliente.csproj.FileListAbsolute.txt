@@ -1,0 +1,7 @@
+C:\Users\Ester\Documents\CadastroCliente\CadastroCliente\obj\Debug\net5.0\CadastroCliente.csproj.AssemblyReference.cache
+C:\Users\Ester\Documents\CadastroCliente\CadastroCliente\obj\Debug\net5.0\CadastroCliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ester\Documents\CadastroCliente\CadastroCliente\obj\Debug\net5.0\CadastroCliente.AssemblyInfoInputs.cache
+C:\Users\Ester\Documents\CadastroCliente\CadastroCliente\obj\Debug\net5.0\CadastroCliente.AssemblyInfo.cs
+C:\Users\Ester\Documents\CadastroCliente\CadastroCliente\obj\Debug\net5.0\CadastroCliente.csproj.CoreCompileInputs.cache
+C:\Users\Ester\Documents\CadastroCliente\CadastroCliente\obj\Debug\net5.0\CadastroCliente.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Ester\Documents\CadastroCliente\CadastroCliente\obj\Debug\net5.0\CadastroCliente.MvcApplicationPartsAssemblyInfo.cache
