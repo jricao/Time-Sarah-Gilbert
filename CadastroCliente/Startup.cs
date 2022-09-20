@@ -1,6 +1,6 @@
-using CadastroCliente.Context;
-using CadastroCliente.Contracts;
-using CadastroCliente.Repository;
+using API.Context;
+using API.Contracts;
+using API.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -15,7 +15,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CadastroCliente
+namespace API
 {
     public class Startup
     {
@@ -30,12 +30,12 @@ namespace CadastroCliente
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<CadastroContext>();
-            services.AddScoped<ICadastroRepository, CadastroRepository>();
+            services.AddScoped<ICadastroClienteRepository, CadastroClienteRepository>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "CadastroCliente", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Projeto Final", Version = "v1" });
             });
         }
 

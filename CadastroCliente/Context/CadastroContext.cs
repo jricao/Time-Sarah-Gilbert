@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using System.Data;
 
-namespace CadastroCliente.Context
+namespace API.Context
 {
     public class CadastroContext
     {
@@ -12,7 +12,7 @@ namespace CadastroCliente.Context
         public CadastroContext(IConfiguration config)
         {
             _config = config;
-            _connectionString = _config.GetConnectionString("SqlConnection");
+            _connectionString = _config.GetConnectionString("Sqlconnections");
         }
 
         public IDbConnection CreateConnection() => new SqlConnection(_connectionString);
