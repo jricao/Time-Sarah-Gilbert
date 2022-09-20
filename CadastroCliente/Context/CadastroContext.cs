@@ -14,9 +14,7 @@ namespace CadastroCliente.Context
             _config = config;
             _connectionString = _config.GetConnectionString("SqlConnection");
         }
-        public IDbConnection CreateConnection() 
-        {
-            return new SqlConnection(_connectionString);
-        }
+
+        public IDbConnection CreateConnection() => new SqlConnection(_connectionString);
     }
 }
