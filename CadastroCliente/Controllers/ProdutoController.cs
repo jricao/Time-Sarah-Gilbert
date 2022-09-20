@@ -44,20 +44,7 @@ namespace CadastroCliente.Controllers
             return View ();
             }
 
-        // POST: HomeController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-            {
-            try
-                {
-                return RedirectToAction (nameof (Index));
-                }
-            catch
-                {
-                return View ();
-                }
-            }
+        
 
         // GET: HomeController/Delete/5
         public ActionResult Delete(int id)
