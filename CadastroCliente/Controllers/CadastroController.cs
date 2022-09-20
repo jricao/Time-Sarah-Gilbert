@@ -1,6 +1,5 @@
 ﻿using CadastroCliente.Contracts;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Caching.Memory;
 using System.Threading.Tasks;
 
 namespace CadastroCliente.Controllers
@@ -10,9 +9,6 @@ namespace CadastroCliente.Controllers
     public class CadastroController : ControllerBase
     {
         private readonly ICadastroRepository _cadastroRepository;
-        private readonly IMemoryCache _cache;
-        
-
 
         public CadastroController(ICadastroRepository cadastroRepository)
         {

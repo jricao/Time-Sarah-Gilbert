@@ -27,7 +27,7 @@ namespace CadastroCliente.Repository
 
         public async Task<Cadastro> GetCadastro(int ID)
         {
-            var query = "Select ID, Name, Endereco, Telefone, Email, CPF From dbclientes Where ID = @ID";
+            var query = "Select ID, Nome, Endereco, Telefone, Email, CPF From dbclientes Where ID = @ID";
 
             using (var connection = _context.CreateConnection())
             {
