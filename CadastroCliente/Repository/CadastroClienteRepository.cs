@@ -1,37 +1,37 @@
-﻿using CadastroCliente.Context;
-using CadastroCliente.Contracts;
-using CadastroCliente.Entities;
+﻿using API.Context;
+using API.Contracts;
+using API.Entities;
 using Dapper;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Linq;
 
-namespace CadastroCliente.Repository
+namespace API.Repository
 {
-    public class CadastroRepository : ICadastroRepository
+    public class CadastroClienteRepository : ICadastroClienteRepository
     {
         private readonly CadastroContext _context;
 
-        public CadastroRepository(CadastroContext context) => _context = context;
+        public CadastroClienteRepository(CadastroContext context) => _context = context;
 
-        public async Task<IEnumerable<Cadastro>> Getdbclientes()
+        public async Task<IEnumerable<Entities.CadastroCliente>> Getdbclientes()
         {
             var query = "Select ID, Name, Endereco, Telefone, Email, CPF From dbclientes";
 
             using (var connection = _context.CreateConnection())
             {
-                var dbclientes = await connection.QueryAsync<Cadastro>(query);
+                var dbclientes = await connection.QueryAsync<CadastroCliente>(query);
                 return dbclientes.ToList();
             }
         }
 
-        public async Task<Cadastro> GetCadastro(int ID)
+        public async Task<Entities.CadastroCliente> GetCadastro(int ID)
         {
             var query = "Select ID, Nome, Endereco, Telefone, Email, CPF From dbclientes Where ID = @ID";
 
             using (var connection = _context.CreateConnection())
             {
-                var Cadastro = await connection.QuerySingleAsync<Cadastro>(query, new { ID });
+                var Cadastro = await connection.QuerySingleAsync<CadastroCliente>(query, new { ID });
                 return Cadastro;  
             }
 
