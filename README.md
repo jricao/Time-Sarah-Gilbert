@@ -9,7 +9,8 @@
 
 <h2> Descrição </h2
 
-## O projeto consiste em construir uma plataforma E-commerce de Tecnologia, usando CRUD (Create, Read, Update e Delete) em um banco de dados para Cadastro e Consulta de Clientes, usando C# como linguagem de programação, SQL como linguagem de consulta e .Net 5 como framework.
+## O projeto consiste em construir uma plataforma E-commerce de Tecnologia, usando o metodo CRUD (Create, Read, Update e Delete) em um banco de dados para Cadastro, Consulta de Clientes e pedidos, usando C# como linguagem de programação, SQL como linguagem de consulta e .Net 5 como framework. 
+ Essa aplicação trata-se de um MVC feito com ASP.NET!
   
   
 ## Ferramentas
