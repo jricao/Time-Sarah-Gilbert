@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <None Remove=".gitignore~RF118ae2f.TMP" />
+    <None Remove="TextFile.txt~RF5f0021.TMP" />
   </ItemGroup>
 
   <ItemGroup>

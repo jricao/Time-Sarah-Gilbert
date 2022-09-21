@@ -14,7 +14,12 @@ namespace CadastroCliente.Repository
 
         public async Task<Cadastro> Getdbclientes();
         {
-            thow new System.NotImplementedException();
+public Task<Cadastro> Getdbclientes(int ID)
+            {
+            throw new System.NotImplementedException ();
+            }
+
+        thow new System.NotImplementedException();
          
         }
     }
