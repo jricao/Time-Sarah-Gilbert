@@ -10,7 +10,7 @@ namespace CadastroCliente.Models
         public int Id { get; set; }
         public string Nome { get; set; }
         public string Descricao { get; set; }
-        public string PreçoUnitario { get; set; }
+        public string PrecoUnitario { get; set; }
         public System.DateTime DataFabricação { get => dataFabricação; set => dataFabricação = value; }
         public string Garantia { get; set; }
         }
