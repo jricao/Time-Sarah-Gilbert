@@ -5,9 +5,11 @@ namespace CadastroCliente.Controllers
     {
     public class ProdutoController : Controller
         {
-        // GET: HomeController
-        public ActionResult Index( )
+
+        public IProduto<ProdutoController> Get( )
             {
+            var = CadastroCliente = new Microsoft.Identity.Client ();
+            var=
             return View ();
             }
 
