@@ -21,9 +21,8 @@
 📌 .NET 5
 📌 ASP NET CORE MVC
 
-
-
-
+## Endpoints
+Classe: CadastroClienteRepository.cs  Linha:21
 
 ## Integrantes
 - Anne Caroline
