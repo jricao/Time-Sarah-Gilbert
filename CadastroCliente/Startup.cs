@@ -1,3 +1,4 @@
+using CadastroCliente.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -24,8 +25,14 @@ namespace CadastroCliente
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public void ConfigureServices(ServiceCollection services)
         {
+            object value = services.AddDbContext<CadastroContext> (OptionsBuilderConfigurationExtensions =>
+            {
+                Options.UseSqlServer (Configuration.GetConnectionString ("defaultConnection"));
+
+            });
+
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
