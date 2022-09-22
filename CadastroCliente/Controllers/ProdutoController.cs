@@ -11,6 +11,9 @@ namespace CadastroCliente.Controllers
         public static string Id { get; private set; }
         public static string Nome { get; private set; }
 
+
+
+
         [HttpGet (Name = "ProdutoController")]
         public IProduto<ProdutoController> Get( )
             {
