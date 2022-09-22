@@ -21,8 +21,8 @@ Essa aplicação trata-se de um MVC feito com ASP.NET!
 📌 ASP NET CORE MVC
 
 
-
-
+## Endpoints
+Classe: CadastroClienteRepository.cs  Linha:21
 
 ## Integrantes
 - Anne Caroline
