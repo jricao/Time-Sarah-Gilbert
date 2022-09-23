@@ -1,0 +1,23 @@
+USE [projetofinal]
+GO
+
+/** Object:  Table [dbo].[produtos]    Script Date: 12/09/2022 20:27:22 **/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[produtos](
+	[nome] [nvarchar](50) NULL,
+	[precounitario] [numeric](18, 0) NULL,
+	[datafabricacao] [date] NULL,
+	[garantia] [int] NULL,
+	[descricao] [nvarchar](50) NULL,
+	[ID] [int] NOT NULL,
+ CONSTRAINT [PK_produtos] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO

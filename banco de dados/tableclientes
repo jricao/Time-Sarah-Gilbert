@@ -1,0 +1,20 @@
+USE [projetofinal]
+GO
+/****** Object:  Table [dbo].[dbclientes]    Script Date: 12/09/2022 20:16:10 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[dbclientes](
+	[nome] [nvarchar](50) NULL,
+	[endereco] [nvarchar](50) NULL,
+	[telefone] [nchar](10) NULL,
+	[email] [nvarchar](50) NULL,
+	[ID] [int] NOT NULL,
+	[CPF] [varchar](14) NULL,
+ CONSTRAINT [PK_dbclientes] PRIMARY KEY CLUSTERED
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
