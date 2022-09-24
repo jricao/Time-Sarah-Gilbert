@@ -9,9 +9,8 @@
 
 <h2> Descrição </h2
 
-## O projeto consiste em construir uma plataforma E-commerce de Tecnologia, usando o metodo CRUD (Create, Read, Update e Delete) em um banco de dados para Cadastro, Consulta de Clientes e pedidos, usando C# como linguagem de programação, SQL como linguagem de consulta e .Net 5 como framework. 
- Essa aplicação trata-se de um MVC feito com ASP.NET!
-  
+## O projeto consiste em construir uma plataforma E-commerce de Tecnologia, usando o metodo CRUD (Create, Read, Update e Delete) em um banco de dados para Cadastro, Consulta de Clientes e pedidos, usando C# como linguagem de programação, SQL como linguagem de consulta e .Net 5 como framework.
+Essa aplicação trata-se de um MVC feito com ASP.NET!
   
 ## Ferramentas
 
@@ -21,6 +20,7 @@
 📌 .NET 5
 📌 ASP NET CORE MVC
 
+
 ## Endpoints
 Classe: CadastroClienteRepository.cs  Linha:21
 
@@ -29,5 +29,4 @@ Classe: CadastroClienteRepository.cs  Linha:21
 - Jéssica Ricão
 - Taís Nazaré
 - Ester Calixto
-
 
